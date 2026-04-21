@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:files_app_flutter/screens/delete_screen.dart';
 import 'package:files_app_flutter/screens/files_display.dart';
@@ -30,7 +29,7 @@ class _HomescreenState extends State<Homescreen> {
         },
         backgroundColor: Colors.white,
         elevation: 2,
-        indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
+        indicatorColor: Theme.of(context).primaryColor.withValues(alpha: 0.2),
         destinations: const [
           NavigationDestination(
             icon: Icon(Icons.folder_outlined),
